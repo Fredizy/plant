@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Details</title>
+  <style>
+    .plant-details {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .plant-image {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="plant-details">
+    <h1>Plant Details</h1>
+
+    <div id="catalog"></div>
+
+    <a href="javascript:history.back()">Go Back</a>
+  </div>
+
+  <script>
+    // Get the plant ID from the URL hash
+    const plantId = window.location.hash.substring(1);
+
+    // Replace this with your actual JSON data
+    const plants = [
+      {
+        "id": "plant001",
+        "name": "Rose",
+        "description": "Beautiful flowering plant known for its vibrant colors and lovely fragrance.",
+        "image": "rose.jpg",
+        "price": 15.99,
+        "species": "Rosa"
+      },
+      // ... (other plant objects)
+      {
+        "id": "plant020",
+        "name": "Fiddle Leaf Fig",
+        "description": "Trendy indoor tree with large, glossy leaves that add a touch of elegance to any room.",
+        "image": "fiddle_leaf_fig.jpg",
+        "price": 34.99,
+        "species": "Ficus lyrata"
+      }
+    ];
+
+    const plant = plants.find(p => p.id === plantId);
+
+    if (plant) {
+      const plantDetailsContent = document.getElementById('plant-details-content');
+      
+      const plantImage = document.createElement('img');
+      plantImage.className = 'plant-image';
+      plantImage.src = `images/${plant.image}`;
+      plantImage.alt = plant.name;
+      plantDetailsContent.appendChild(plantImage);
+
+      const plantName = document.createElement('h2');
+      plantName.textContent = plant.name;
+      plantDetailsContent.appendChild(plantName);
+
+      const plantDescription = document.createElement('p');
+      plantDescription.textContent = plant.description;
+      plantDetailsContent.appendChild(plantDescription);
+
+      const plantSpecies = document.createElement('p');
+      plantSpecies.textContent = `Species: ${plant.species}`;
+      plantDetailsContent.appendChild(plantSpecies);
+
+      const plantPrice = document.createElement('p');
+      plantPrice.textContent = `Price: $${plant.price}`;
+      plantDetailsContent.appendChild(plantPrice);
+    } else {
+      // Plant not found
+      const errorMessage = document.createElement('p');
+      errorMessage.textContent = 'Plant not found.';
+      document.body.appendChild(errorMessage);
+    }
+  </script>
+</body>
+</html>

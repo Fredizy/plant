@@ -1,0 +1,36 @@
+[
+  {
+    "id": "plant001",
+    "name": "Rose",
+    "description": "Beautiful flowering plant known for its vibrant colors and lovely fragrance.",
+    "image": "rose.jpg",
+    "price": 15.99,
+    "species": "Rosa"
+  },
+
+  {
+    "id": "plant002",
+    "name": "Lavender",
+    "description": "Aromatic herb with purple flowers often used for its soothing properties.",
+    "image": "lavender.jpg",
+    "price": 12.49,
+    "species": "Lavandula"
+  },
+  {
+    "id": "plant003",
+    "name": "Snake Plant",
+    "description": "Low-maintenance indoor plant with tall, upright leaves, also known as Mother-in-law's tongue.",
+    "image": "snake_plant.jpg",
+    "price": 20.99,
+    "species": "Sansevieria"
+  },
+  
+  {
+    "id": "plant020",
+    "name": "Fiddle Leaf Fig",
+    "description": "Trendy indoor tree with large, glossy leaves that add a touch of elegance to any room.",
+    "image": "fiddle_leaf_fig.jpg",
+    "price": 34.99,
+    "species": "Ficus lyrata"
+  }
+]
