@@ -42,7 +42,7 @@ header{
 }
 
 .sidebar:hover {
-    width: 260px;
+    width: 280px;
 }
 
 .sidebar .logo {
@@ -82,8 +82,13 @@ header{
     font-weight: 500;
     display: none;
 }
+
 .sidebar .links::-webkit-scrollbar {
     display: none;
+}
+
+.form-control:focus{
+    border: 1px solid #1c9910;
 }
 
 .sidebar:hover .links h4 {
@@ -119,7 +124,7 @@ header{
 .links li span {
     padding: 20px 20px;
     color: #1c9910;
-    margin-right: 27px;
+    margin-right: 25px !important;
 }
 
 
@@ -212,7 +217,6 @@ header p {
         margin-left: 10px !important;
     }
     
-    
 }
 .sidebar .active-popup{
     transform: scale(1);
@@ -228,6 +232,77 @@ header p {
     position: relative;
     max-width: 100%;
 }
+.img-products{
+    background-image: url(img/f1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+}
+.img-products2{
+    background-image: url(img/F2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+}
+.img-products3{
+    background-image: url(img/F3.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+}
+.img-products4{
+    background-image: url(img/F4.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+}
+.img-products5{
+    background-image: url(img/F5.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+}
+.img-products6{
+    background-image: url(img/f6.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+}
+.second-box{
+    background-image: url(img/Img\ ads.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+}
+
 
 
 
