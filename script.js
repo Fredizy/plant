@@ -1,3 +1,4 @@
+
 // const menu = document.querySelector('.material-symbols-outlined');
  
 
@@ -19,7 +20,9 @@ searchInput.addEventListener('input', () => {
       box.style.display = 'block';
     } else {
       box.style.display = 'none';
-      
     }
   });
 });
+
+// Modal
+
