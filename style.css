@@ -189,8 +189,7 @@ header p {
 @media screen and (max-width: 767px) {
     .sidebar {
      width: 66px;
-     /* display: none; */
-     opacity: 0;
+     
     }
 }
 @media screen and (max-width: 767px) {
@@ -216,6 +215,16 @@ header p {
     .footer-text{
         margin-left: 10px !important;
     }
+    .img-box{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-control{
+        margin-right: 200px !important;
+        display: none;
+    }
+   
     
 }
 .sidebar .active-popup{
@@ -303,6 +312,248 @@ header p {
     max-width: 100%;
 }
 
+ /* indoor plants styling */
+ .indoor-plant1{
+    background-image: url(img/f1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .indoor-plant2{
+    background-image: url(img/spider.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .indoor-plant3{
+    background-image: url(img/peace.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .indoor-plant4{
+    background-image: url(img/anithurium.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .indoor-plant5{
+    background-image: url(img/violet.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .indoor-plant6{
+    background-image: url(img/orchid.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .Outdoor1{
+    background-image: url(img/Outdoor\ 1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .Outdoor2{
+    background-image: url(img/Outdoor\ 2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .Outdoor3{
+    background-image: url(img/Outdoor\ 3.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .Outdoor4{
+    background-image: url(img/Outdoor\ 4.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .outdoor5{
+    background-image: url(img/Outdoor\ 5.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .outdoor6{
+    background-image: url(img/arrowwod.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .succu1{
+    background-image: url(img/aloe1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .succu2{
+    background-image: url(img/jade1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .succu3{
+    background-image: url(img/poke2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .succu4{
+    background-image: url(img/malabar.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .succu5{
+    background-image: url(img/queen.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .succu6{
+    background-image: url(img/andromeda.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .shrubs1{
+    background-image: url(img/andromeda.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .shrubs2{
+    background-image: url(img/annabelle.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .shrubs3{
+    background-image: url(img/apple.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .shrubs4{
+    background-image: url(img/arrowwod.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .shrubs5{
+    background-image: url(img/azalea.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+ .shrubs6{
+    background-image: url(img/barberry.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    max-width: 100%;
+ }
+
 /* About css */
 .landing{
     width: 100%;
@@ -350,7 +601,7 @@ header p {
 .about-box{
     width: 45%;
     height: 350px;
-    background-image: url(img/);
+    background-image: url(img/high-angle-girls-watering-flowers_23-2148480195.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -377,6 +628,7 @@ header p {
       width: 80%;
      } 
   }
+
 /* contact */
 .contact{
     width: 100%;
